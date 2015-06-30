@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		509C6E421B24B0F500B13CEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 509C6E411B24B0F500B13CEC /* main.cpp */; };
+		50A497971B24BCB400D030B7 /* libAppRealKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A497961B24BCB400D030B7 /* libAppRealKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		509C6E3C1B24B0F500B13CEC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		509C6E3E1B24B0F500B13CEC /* AppRealKitTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppRealKitTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		509C6E411B24B0F500B13CEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		509C6E4A1B24B21300B13CEC /* balancer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = balancer.h; sourceTree = "<group>"; };
+		509C6E4B1B24B21300B13CEC /* constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constant.h; sourceTree = "<group>"; };
+		50A497961B24BCB400D030B7 /* libAppRealKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppRealKit.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		509C6E3B1B24B0F500B13CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A497971B24BCB400D030B7 /* libAppRealKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		509C6E351B24B0F500B13CEC = {
+			isa = PBXGroup;
+			children = (
+				509C6E401B24B0F500B13CEC /* AppRealKitTest */,
+				509C6E3F1B24B0F500B13CEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		509C6E3F1B24B0F500B13CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				509C6E3E1B24B0F500B13CEC /* AppRealKitTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		509C6E401B24B0F500B13CEC /* AppRealKitTest */ = {
+			isa = PBXGroup;
+			children = (
+				50A497961B24BCB400D030B7 /* libAppRealKit.a */,
+				509C6E491B24B21300B13CEC /* include */,
+				509C6E411B24B0F500B13CEC /* main.cpp */,
+			);
+			path = AppRealKitTest;
+			sourceTree = "<group>";
+		};
+		509C6E491B24B21300B13CEC /* include */ = {
+			isa = PBXGroup;
+			children = (
+				509C6E4A1B24B21300B13CEC /* balancer.h */,
+				509C6E4B1B24B21300B13CEC /* constant.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		509C6E3D1B24B0F500B13CEC /* AppRealKitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509C6E451B24B0F500B13CEC /* Build configuration list for PBXNativeTarget "AppRealKitTest" */;
+			buildPhases = (
+				509C6E3A1B24B0F500B13CEC /* Sources */,
+				509C6E3B1B24B0F500B13CEC /* Frameworks */,
+				509C6E3C1B24B0F500B13CEC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppRealKitTest;
+			productName = AppRealKitTest;
+			productReference = 509C6E3E1B24B0F500B13CEC /* AppRealKitTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		509C6E361B24B0F500B13CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = apprealkit.com;
+				TargetAttributes = {
+					509C6E3D1B24B0F500B13CEC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 509C6E391B24B0F500B13CEC /* Build configuration list for PBXProject "AppRealKitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 509C6E351B24B0F500B13CEC;
+			productRefGroup = 509C6E3F1B24B0F500B13CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				509C6E3D1B24B0F500B13CEC /* AppRealKitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		509C6E3A1B24B0F500B13CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509C6E421B24B0F500B13CEC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		509C6E431B24B0F500B13CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		509C6E441B24B0F500B13CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		509C6E461B24B0F500B13CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppRealKitTest",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		509C6E471B24B0F500B13CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppRealKitTest",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		509C6E391B24B0F500B13CEC /* Build configuration list for PBXProject "AppRealKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509C6E431B24B0F500B13CEC /* Debug */,
+				509C6E441B24B0F500B13CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509C6E451B24B0F500B13CEC /* Build configuration list for PBXNativeTarget "AppRealKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509C6E461B24B0F500B13CEC /* Debug */,
+				509C6E471B24B0F500B13CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 509C6E361B24B0F500B13CEC /* Project object */;
+}
